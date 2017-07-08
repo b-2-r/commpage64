@@ -59,8 +59,7 @@ const char *cpu_cap_strings[] = {
 };
 
 char *
-signature()
-{
+signature() {
     char *signature = malloc(0x10);
     strlcpy(signature, (void *)COMM_PAGE64_BASE_ADDRESS, 0x10);
     
