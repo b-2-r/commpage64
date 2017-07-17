@@ -125,6 +125,7 @@ void dump_comm_page() {
         }
         shift++;
     }
+    printf("[*] Done dumping comm page.\n");
 }
 
 int main(int argc, const char * argv[]) {
